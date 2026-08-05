@@ -6,7 +6,7 @@ Can one forecaster attain the optimal regret rate for every bounded proper loss 
 
 $$\sup_{\ell}\,\mathbb E\,\mathrm{Reg}_\ell \leq 4\sqrt{S_TT} \leq 4\sqrt{KT},$$
 
-$$\mathbb E\,\mathrm{Reg}_\ell \leq \tfrac{5}{2}\beta(1+\log T)\qquad\text{for every $\beta$-smooth proper $\ell$.}$$
+$$\mathbb E\,\mathrm{Reg}_\ell \leq \tfrac{5}{2}\beta(1+\log T)\qquad\text{for every }\beta\text{-smooth proper }\ell.$$
 
 Here $S_T$ is the number of observed classes. Known lower bounds show that both rates are optimal in their nontrivial regimes. The proof covers nondifferentiable losses and changes of the active simplex face.
 
